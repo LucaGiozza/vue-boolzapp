@@ -16,8 +16,8 @@ body{
 
 .contenitore{
    
-    width: 70%;
-    height: 90vh;
+    width: 800px;
+    height: 500px;
     margin: -50px auto;
     display: flex;
 }
@@ -28,7 +28,7 @@ body{
 /* header */
 
 .colonna-sinistra{
-    height: 100%;
+    height: 500px;
     width: 250px;
     background-color: lightgray;
    
@@ -37,7 +37,7 @@ body{
 
 
 .header-sx{
-    height: 10%;
+    height: 50px;
     background-color: lightgray;
     padding: 10px;
     border-right: 0.1px solid rgb(197, 196, 196);
@@ -70,8 +70,8 @@ body{
 
 
 .notifiche-azzurre{
-    height: 10%;
-    background-color: lightsteelblue;
+    height: 50px;
+    background-color:  rgb(187, 225, 248);;
     font-size: 10px;
    
     padding: 4%;
@@ -101,7 +101,7 @@ body{
 /* sezione barra di ricerca sx */
 .casella-ricerca{
     background-color: lightgray;
-    height:10%;
+    height:50px;
 }
 
 .barra-ricerca-sx{
@@ -128,12 +128,15 @@ body{
 
 /* sezione avatar e nome */
 .barra-sinistra{
+    overflow:auto;
+    height: 355px;
+  
     
 }
 
 
 .avatar-nome{
-    height: 70%;
+    
     background-color: white;
     padding:15px;
     border-bottom: 1px solid lightgray;
@@ -160,15 +163,15 @@ body{
 
 /* colonna di destra */
 .colonna-destra{
-    height: 100%;
-    width: 65%;
+    height: 500px;
+    width: 550px;
     background-color: rgb(0, 195, 255);
     
 }
 
 /* header destro */
 .header-dx{
-    height: 10%;
+    height: 50px;
     background-color: lightgray;
     padding: 10px;
     
@@ -199,6 +202,7 @@ body{
     float:right;
     padding:10px 10px;
     cursor: pointer;
+    color:gray
 }
 #graffetta{
     padding:0px 15px;
@@ -208,3 +212,29 @@ body{
 
 /* sezione centrale della colonna di destra */
 
+.centro{
+  height: 400px;
+  background-color: rgb(222, 238, 248)
+  
+  
+ 
+}
+
+
+/* sezione bassa colonna di destra */
+
+.bassa-dx{
+    height: 55px;
+    background-color: rgb(187, 225, 248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:gray;
+  
+}
+.casella-bassa-dx{
+    width:80%;
+    height: 40px;
+    
+    
+}
