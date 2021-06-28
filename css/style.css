@@ -30,7 +30,8 @@ body{
 .colonna-sinistra{
     height: 100%;
     width: 250px;
-    background-color: blue;
+    background-color: lightgray;
+   
     
 }
 
@@ -97,6 +98,10 @@ body{
 
 
 /* sezione barra di ricerca sx */
+.casella-ricerca{
+    background-color: lightgray;
+    height:10%;
+}
 
 .barra-ricerca-sx{
     float:right;
@@ -115,10 +120,39 @@ body{
     margin-left: 5px;
     background-color: white;
     border: none;
-    color:gray;
+    color:lightgray;
     
   
 }
+
+/* sezione avatar e nome */
+.barra-sinistra{
+    
+}
+
+
+.avatar-nome{
+    height: 70%;
+    background-color: white;
+    padding:15px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.avatar-nome img{
+    height:40px;
+    
+    vertical-align: middle;
+   border-radius: 30px;
+    background-color: gray;
+    
+}
+.name-sx{
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+
 
 
 
