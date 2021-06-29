@@ -154,7 +154,7 @@
          
          methods : {
              posizione : function(){
-                this.messages
+                
              }
 
          }
@@ -171,42 +171,42 @@
 //  conversazione del contatto cliccato
 
 
-function stampaMessaggi(array){
+// function stampaMessaggi(array){
 
     
   
-    // document.getElementById('centro').innerHTML = '';
+//     // document.getElementById('centro').innerHTML = '';
   
   
     
-   array.forEach((element) =>{
+//    array.forEach((element) =>{
    
   
   
   
  
-   const {text, date} = element;
-   const elementHtml =  `
-   <section id="centro" class="centro">
+//    const {text, date} = element;
+//    const elementHtml =  `
+//    <section id="centro" class="centro">
 
-   <div class="messaggi-inviati">
-       <p class="${text}${date}"></p>
+//    <div class="messaggi-inviati">
+//        <p class="${text}${date}"></p>
 
-   </div>
-   <div class="messaggi-ricevuti">
-       <p class="${text}${date}"></p>
+//    </div>
+//    <div class="messaggi-ricevuti">
+//        <p class="${text}${date}"></p>
 
-   </div>
+//    </div>
    
 
 
 
-</section>
+// </section>
 
-   `;
+//    `;
   
-    document.getElementById('centro').innerHTML += elementHtml ;
+//     document.getElementById('centro').innerHTML += elementHtml ;
   
-   });
+//    });
   
-  }
+//   }
