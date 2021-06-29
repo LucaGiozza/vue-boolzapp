@@ -63,8 +63,9 @@
     <section class="barra-sinistra">
 
         <div class="avatar-nome">
-            <img src="img/avatar_2.jpg" alt="">
-            <span class="name-sx ">Luca</span>
+            <img v-for="(item,index) in immagini"   alt="">{{item}}
+            
+            <span v-for="(item, index ) in nome">{{item}} </span>
          
             
              <span class="name-sx"></span>  
