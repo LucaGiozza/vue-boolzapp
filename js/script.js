@@ -169,13 +169,13 @@
 // contatto attivo all’interno del pannello della conversazione
 //  Click sul contatto mostra la
 //  conversazione del contatto cliccato
-stampa(array)
 
-function stampa(array){
+
+function stampaMessaggi(array){
 
     
   
-    document.getElementById('centro').innerHTML = '';
+    // document.getElementById('centro').innerHTML = '';
   
   
     
