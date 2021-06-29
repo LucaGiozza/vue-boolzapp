@@ -154,7 +154,7 @@
          
          methods : {
              posizione : function(){
-                 alert('ciao');
+                this.messages
              }
 
          }
@@ -169,5 +169,44 @@
 // contatto attivo all’interno del pannello della conversazione
 //  Click sul contatto mostra la
 //  conversazione del contatto cliccato
+stampa(array)
+
+function stampa(array){
+
+    
+  
+    document.getElementById('centro').innerHTML = '';
+  
+  
+    
+   array.forEach((element) =>{
+   
+  
+  
+  
+ 
+   const {text, date} = element;
+   const elementHtml =  `
+   <section id="centro" class="centro">
+
+   <div class="messaggi-inviati">
+       <p class="${text}${date}"></p>
+
+   </div>
+   <div class="messaggi-ricevuti">
+       <p class="${text}${date}"></p>
+
+   </div>
+   
 
 
+
+</section>
+
+   `;
+  
+    document.getElementById('centro').innerHTML += elementHtml ;
+  
+   });
+  
+  }

@@ -63,7 +63,7 @@
 
     <section class="barra-sinistra">
 
-        <div v-for="contact in contacts" class="avatar-nome">
+        <div v-for="contact in contacts" @click='posizione' class="avatar-nome">
 
             
             <!-- <img v-for="(item,index) in immagini"   alt="">{{item}}
@@ -111,16 +111,16 @@
         <!-- fine header colonna di destra -->
 
   <!-- sezione centrale colonna di destra -->
-        <section class="centro">
+        <section id="centro" class="centro">
 
-            <div class="messaggi-inviati">
-                <p class="invio">Ciao oggi che fai?</p>
+              <div class="messaggi-inviati">
+                <p class="invio">Ciao oggi che fai?</p> 
 
             </div>
             <div class="messaggi-ricevuti">
-                <p class="ricevo">Ciao, mi dispiace ma oggi sono occupato</p>
+                 <p class="ricevo">Ciao, mi dispiace ma oggi sono occupato</p>  
 
-            </div>
+             </div>   
             
 
 
