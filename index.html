@@ -7,6 +7,7 @@
     <title>Boolzapp</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 <body>
 <!-- riga di sfondo -->
@@ -62,7 +63,7 @@
 
     <section class="barra-sinistra">
 
-        <div class="avatar-nome">
+        <div v-for="contact in contacts" class="avatar-nome">
 
             
             <!-- <img v-for="(item,index) in immagini"   alt="">{{item}}
@@ -71,35 +72,12 @@
          
             
              <span class="name-sx"></span>   -->
-              <img src="img/avatar_2.jpg" alt="">
-             <span class="name-sx ">Luca</span>
+              <img :src="'img/avatar' + contact.avatar + '.jpg'"  :alt="contact.name">
+             <span class="name-sx ">{{contact.name}}</span>
          
         </div>
-        <div class="avatar-nome ">
-            <img src="img/avatar_3.jpg" alt="">
-            <span class="name-sx ">Davide</span>
-          
-         </div>
-         <div class="avatar-nome">
-            <img src="img/avatar_4.jpg" alt="">
-            <span class="name-sx">Christian</span>
-          
-         </div>
-         <div class="avatar-nome">
-            <img src="img/avatar_5.jpg" alt="">
-            <span class="name-sx">Gabriele</span>
-          
-         </div>
-         <div class="avatar-nome">
-            <img src="img/avatar_6.jpg" alt="">
-            <span class="name-sx">Alessia</span>
-          
-         </div>
-         <div class="avatar-nome">
-            <img src="img/avatar_7.jpg" alt="">
-            <span class="name-sx">Alessio</span>
-          
-         </div> 
+        
+       
 
 
 

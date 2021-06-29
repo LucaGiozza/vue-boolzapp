@@ -3,7 +3,7 @@
 
 
 
-    var app = new Vue ({
+    const app = new Vue ({
 
       el: '#app',
       data:{
@@ -82,7 +82,7 @@
                                 ],
                                 },
                  {
-                    name: 'Alessia',
+                    name: 'Gabriele',
                     avatar: '_5',
                      visible: true,
                     messages: [
@@ -104,7 +104,7 @@
                                 ],
                                  },
                  {
-                     name: 'Gabriele',
+                     name: 'Alessia',
                     avatar: '_6',
                      visible: true,
                      messages: [
@@ -148,7 +148,16 @@
                                  ],
                                  },
              ]
-         }    
+
+             
+         },
+         
+         methods : {
+             posizione : function(){
+                 alert('ciao');
+             }
+
+         }
      });
 
 
