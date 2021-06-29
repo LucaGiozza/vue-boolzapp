@@ -111,12 +111,16 @@
   <!-- sezione centrale colonna di destra -->
         <section  id="centro" class="centro">
 
-               <div v-for="messaggi in messages" class="messaggi-inviati">
-                <!-- <p class="invio">Ciao oggi che fai?</p>  -->
+               <div v-for="messaggi in contacts[0].messages" class="messaggi-inviati">
+
+                
+                 <p class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>  
+
 
             </div>
-            <div class="messaggi-ricevuti">
-                 <!-- <p class="ricevo">Ciao, mi dispiace ma oggi sono occupato</p>   -->
+            <div v-if="contacts.status = 'received' " v-for="messaggi in contacts[0].messages" class="messaggi-ricevuti">
+                <p class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>
+                 
 
              </div>    
             
