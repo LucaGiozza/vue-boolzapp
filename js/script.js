@@ -134,7 +134,7 @@
                                 {
                                  date: '20/03/2020 16:30:00',
                                  text: 'La ragazza mi ha lasciato',
-                                status: 'sent'
+                                 status: 'sent'
                                  },
                                  {
                                  date: '20/03/2020 16:30:55',
