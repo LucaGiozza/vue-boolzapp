@@ -22,17 +22,17 @@
                   messages:[
                             {
                              date: '10/01/2020 15:30:55',
-                             text: 'Hai portato a spasso il cane?',
+                             text: 'Andiamo a giocare a calcetto oggi??',
                              status: 'sent'
                              },
                              {
                              date: '10/01/2020 15:50:00',
-                             text: 'Ricordati di dargli da mangiare',
+                             text: 'Che è da tanto che non andiamo',
                              status: 'sent'
                              },
                              {
                              date: '10/01/2020 16:15:22',
-                             text: 'Tutto fatto!',
+                             text: 'Ci sto!!',
                              status: 'received'
                              }
                              ],
@@ -67,17 +67,17 @@
                      messages: [
                                  {
                                  date: '20/03/2020 16:30:00',
-                                 text: 'Ciao come stai?',
+                                 text: 'Hai visto la partita?',
                                  status: 'sent'
                                 },
                                 {
                                  date: '20/03/2020 16:30:55',
-                                 text: 'Bene grazie! Stasera ci vediamo?',
+                                 text: 'no quanto è finita?',
                                 status: 'received'
                                 },
                                 {
                                 date: '20/03/2020 16:35:00',
-                                 text: 'Mi piacerebbe ma devo andare a fare la spesa.',
+                                 text: '3 set a 0 per federer!',
                                 status: 'sent'
                                 }
                                 ],
@@ -89,17 +89,17 @@
                     messages: [
                                 {
                                 date: '20/03/2020 16:30:00',
-                                 text: 'Ciao come stai?',
+                                 text: 'cosa mangiamo?',
                                  status: 'sent'
                                  },
                                 {
                                 date: '20/03/2020 16:30:55',
-                                text: 'Bene grazie! Stasera ci vediamo?',
+                                text: 'MC?',
                                 status: 'received'
                                  },
                                  {
                                 date: '20/03/2020 16:35:00',
-                                text: 'Mi piacerebbe ma devo andare a fare la spesa.',
+                                text: 'Sono a dieta non posso!',
                                  status: 'sent'
                                 }
                                 ],
@@ -111,17 +111,17 @@
                      messages: [
                                  {
                                  date: '20/03/2020 16:30:00',
-                                 text: 'Ciao come stai?',
+                                 text: 'Compriamo un cane?',
                                  status: 'sent'
                                 },
                                 {
                                 date: '20/03/2020 16:30:55',
-                                text: 'Bene grazie! Stasera ci vediamo?',
+                                text: 'Siiiii daiiii',
                                  status: 'received'
                                  },
                                  {
                                 date: '20/03/2020 16:35:00',
-                                text: 'Mi piacerebbe ma devo andare a fare la spesa.',
+                                text: 'Dobbiamo pensarci bene però!',
                                 status: 'sent'
                                 }
                                 ],
@@ -133,17 +133,17 @@
                      messages: [
                                 {
                                  date: '20/03/2020 16:30:00',
-                                 text: 'Ciao come stai?',
+                                 text: 'La ragazza mi ha lasciato',
                                 status: 'sent'
                                  },
                                  {
                                  date: '20/03/2020 16:30:55',
-                                text: 'Bene grazie! Stasera ci vediamo?',
+                                text: 'Mi dispiace tanto....',
                                  status: 'received'
                                  },
                                  {
                                  date: '20/03/2020 16:35:00',
-                                 text: 'Mi piacerebbe ma devo andare a fare la spesa.',
+                                 text: 'Va bè, si vede che era destino',
                                  status: 'sent'
                                  }
                                  ],

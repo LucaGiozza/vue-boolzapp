@@ -111,10 +111,15 @@
   <!-- sezione centrale colonna di destra -->
         <section  id="centro" class="centro">
 
+            <div v-for="message in contacts[contactActive].messages" :class="message.status"  class="messaggi-inviati" >
+                 <p  class="invio" >{{message.text}}</p>
+                 <p   class="data"> {{message.date}}</p>
+            </div>
+
 
             
 
-                <div v-for="messaggi in contacts[0].messages"  class="messaggi-inviati">
+                <!-- <div v-for="messaggi in contacts[0].messages"  class="messaggi-inviati">
 
                 
                  <p class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>  
@@ -125,7 +130,7 @@
                 <p    class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>
                  
 
-             </div>    
+             </div>     -->
             
 
 
