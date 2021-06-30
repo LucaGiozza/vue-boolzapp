@@ -70,8 +70,8 @@
          
             
              <span class="name-sx"></span>  
-              <img :src="'img/avatar' + contacts[contactActive].avatar + '.jpg'"  :alt="contacts[contactActive].name">
-             <span class="name-sx ">{{contacts[contactActive].name}}</span>
+              <img :src="'img/avatar' + contact.avatar + '.jpg'"  :alt="contact.name">
+             <span class="name-sx ">{{contact.name}}</span>
          
         </div>
         
@@ -94,8 +94,8 @@
         <!-- header colonna di destra -->
 
         <header class="header-dx">
-            <img  src="img/avatar_7.jpg" alt="avatar">
-            <span class="header-dx-text">Fabrizio <span class="accesso">Ultimo accesso oggi alle:</span> </span>
+            <img :src="'img/avatar' + contacts[contactActive].avatar + '.jpg'"  alt="avatar">
+            <span class="header-dx-text">{{contacts[contactActive].name}} <span class="accesso">Ultimo accesso oggi alle: 20.45</span> </span>
             <div class="icons-header-dx">
                 <i class="fas fa-search"></i>
                 <i id="graffetta" class="fas fa-paperclip"></i>

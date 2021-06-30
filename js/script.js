@@ -154,8 +154,8 @@
          },
          
          methods: {
-             setContactActive(indice){
-                 this.contactActive = indice;
+             setContactActive(index){
+                 this.contactActive = index;
 
              }
                 
