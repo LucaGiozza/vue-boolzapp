@@ -218,7 +218,7 @@ body{
   position: relative;
   }
 
-  .messaggi-inviati{
+  .messaggi.sent{
       padding:4px 4px;
       font-size: 14px;
       background-color: rgb(99, 240, 99);
@@ -226,24 +226,24 @@ body{
       clear:both;
       margin-bottom: 10px;
       margin-top: 10px;
-      margin-right: 10px;
+      margin-right: 20px;
       
      
       font-family:Arial, Helvetica, sans-serif ;
 
   }
 
-  .messaggi-ricevuti{
+  .messaggi.received{
       padding:5px 5px;
       font-size: 14px;
       background-color: rgb(174, 243, 174);
       max-width: 40%;
-      float:right;
+      float:left;
       clear:both;
      
       margin-bottom: 10px;
       
-      margin-left: 10px;
+      margin-left: 20px;
      
       font-family:Arial, Helvetica, sans-serif ; 
   }

@@ -77,7 +77,7 @@
                                 },
                                 {
                                 date: '20/03/2020 16:35:00',
-                                 text: '3 set a 0 per federer!',
+                                 text: '3 set a 0 per Sinner!',
                                 status: 'sent'
                                 }
                                 ],
@@ -89,7 +89,7 @@
                     messages: [
                                 {
                                 date: '20/03/2020 16:30:00',
-                                 text: 'cosa mangiamo?',
+                                 text: 'Cosa mangiamo stase?',
                                  status: 'sent'
                                  },
                                 {
