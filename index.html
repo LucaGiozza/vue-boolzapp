@@ -114,6 +114,7 @@
             <div v-for="message in contacts[contactActive].messages" :class="message.status"  class="messaggi " >
                  <p  class="invio" >{{message.text}}</p>
                  <p   class="data"> {{message.date}}</p>
+                 
             </div>
 
 
@@ -132,7 +133,12 @@
         <section class="bassa-dx">
             <span><i class="far fa-smile"></i></span>
 
-            <input class="casella-bassa-dx" type="text" placeholder="Scrivi un messaggio">
+            <input v-model="scritta"  class="casella-bassa-dx " type="text" placeholder="Scrivi un messaggio">
+            
+
+            
+            <p  class="invio messaggi">message is : {{scritta}}</p>
+            
             <span><i class="fas fa-microphone"></i></span>
 
         </section>
