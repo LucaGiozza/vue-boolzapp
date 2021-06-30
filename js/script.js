@@ -12,6 +12,7 @@
               avatar : '_1'
 
           },
+          contactActive: 0,
 
           contacts: [
               {
@@ -152,13 +153,16 @@
              
          },
          
-         methods : {
-             posizione : function(){
+         methods: {
+             setContactActive(indice){
+                 this.contactActive = indice;
+
+             }
                 
              }
 
-         }
-     });
+         },
+     );
 
 
 
@@ -210,3 +214,6 @@
 //    });
   
 //   }
+
+
+

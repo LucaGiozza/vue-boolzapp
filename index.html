@@ -63,15 +63,15 @@
 
     <section class="barra-sinistra">
 
-        <div v-for="contact in contacts" @click='posizione' class="avatar-nome">
+        <div v-for="(contact, index) in contacts" class="avatar-nome" @click="setContactActive(index)">
 
             
             
          
             
              <span class="name-sx"></span>  
-              <img :src="'img/avatar' + contact.avatar + '.jpg'"  :alt="contact.name">
-             <span class="name-sx ">{{contact.name}}</span>
+              <img :src="'img/avatar' + contacts[contactActive].avatar + '.jpg'"  :alt="contacts[contactActive].name">
+             <span class="name-sx ">{{contacts[contactActive].name}}</span>
          
         </div>
         
@@ -111,15 +111,18 @@
   <!-- sezione centrale colonna di destra -->
         <section  id="centro" class="centro">
 
-               <div v-for="messaggi in contacts[0].messages" class="messaggi-inviati">
+
+            
+
+                <div v-for="messaggi in contacts[0].messages"  class="messaggi-inviati">
 
                 
                  <p class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>  
 
 
-            </div>
-            <div v-if="contacts.status = 'received' " v-for="messaggi in contacts[0].messages" class="messaggi-ricevuti">
-                <p class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>
+            </div> 
+             <div  v-for="messaggi in contacts[0].messages" class="messaggi-ricevuti">
+                <p    class="invio">{{messaggi.text}} <span class="data">{{messaggi.date}}</span></p>
                  
 
              </div>    
