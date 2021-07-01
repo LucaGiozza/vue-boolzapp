@@ -176,6 +176,7 @@
                     this.contacts[this.contactActive].messages.push(arrivoMessaggio);
                     console.log(this.contacts[this.contactActive].messages);
                     this.nuovoMessaggio = '';
+
                    setTimeout(() =>{
                     const rispostaAutomatica = {
                         date: dayjs().format("DD/MM/YYYY HH:mm:ss"),
@@ -194,19 +195,31 @@
                
 
              },
+
+
+
+            
            trovaContatto(){
-
-            const ricerca={
-
-                text: this.ricercaContatto,
-                
-            }
-            console.log(ricerca)
-
-            if(  this.ricercaContatto.length != this.contactActive.length){
+            
                
-            }
-           }
+                
+
+                
+
+                
+            
+
+        
+            
+
+            
+           },
+
+           
+
+
+
+          
 
                 
              }
