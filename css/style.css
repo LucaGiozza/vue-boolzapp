@@ -271,3 +271,15 @@ body{
     
     
 }
+
+
+
+
+/* classi per i contatti */
+
+.nascosto{
+    display:none;
+}
+.visibile{
+    display:inline-block;
+}

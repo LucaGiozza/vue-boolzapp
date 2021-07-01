@@ -54,7 +54,7 @@
         <label class="search-label" for="search">
             <i cla class="fas fa-search ricerca-sx"></i>
         </label>
-        <span> <input class="barra-ricerca-sx" type="text" placeholder="Cerca o inizia una nuova chat"></span>
+        <span> <input v-model="ricercaContatto" @keyup.enter="trovaContatto" class="barra-ricerca-sx" type="text" placeholder="Cerca o inizia una nuova chat"></span>
 
        </div>
 
