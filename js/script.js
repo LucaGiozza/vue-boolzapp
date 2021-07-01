@@ -13,7 +13,7 @@
 
           },
           contactActive: 0,
-          scritta : '',
+          nuovoMessaggio : '',
 
           contacts: [
               {
@@ -162,10 +162,37 @@
 
              
 
-              inviaMessaggioUtente(){
+              invioMessaggio(){
+                  if(this.nuovoMessaggio != ''){
+                    const arrivoMessaggio = {
+                        date: dayjs().format("DD/MM/YYYY HH:mm:ss"),
+                        text: this.nuovoMessaggio,
+                        status: 'sent'
+  
+  
+                    };
+                    console.log(arrivoMessaggio);
+                    this.contacts[this.contactActive].messages.push(arrivoMessaggio);
+                    console.log(this.contacts[this.contactActive].messages);
+                    this.nuovoMessaggio = '';
+                   setTimeout(() =>{
+                    const rispostaAutomatica = {
+                        date: dayjs().format("DD/MM/YYYY HH:mm:ss"),
+                        text: 'ok',
+                        status: 'received'
+  
+  
+                    };
+                    this.contacts[this.contactActive].messages.push(rispostaAutomatica);
+
+
+                   },1000)
+
+                  }
+       
                
 
-             },
+             }
 
                 
              }
