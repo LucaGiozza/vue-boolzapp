@@ -197,11 +197,11 @@
              },
 
 
-
+       // quarta milestone: devo usare il foreach:
             
            trovaContatto(){
 
-            ricercaContatto.forEach((element)=> {
+            ricercaContatto.forEach( (element)=> {
                 console.log(element)
                 
             });
@@ -209,16 +209,7 @@
                
                 
 
-                
-
-                
-            
-
-        
-            
-
-            
-           },
+                },
 
            
 
