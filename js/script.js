@@ -200,6 +200,11 @@
 
             
            trovaContatto(){
+
+            ricercaContatto.forEach((element)=> {
+                console.log(element)
+                
+            });
             
                
                 
