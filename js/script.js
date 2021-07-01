@@ -201,8 +201,13 @@
             
            trovaContatto(){
 
-            ricercaContatto.forEach( (element)=> {
-                console.log(element)
+            this.contacts.forEach( (element)=> {
+                console.log(element.name)
+                const search = this.ricercaContatto.toLowerCase();
+                const rinomina = element.name.toLowerCase();
+
+                
+                element.visible = rinomina.includes(search);
                 
             });
             

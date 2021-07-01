@@ -54,7 +54,7 @@
         <label class="search-label" for="search">
             <i cla class="fas fa-search ricerca-sx"></i>
         </label>
-        <span> <input v-model="ricercaContatto" @keyup.enter="trovaContatto" class="barra-ricerca-sx" type="text" placeholder="Cerca o inizia una nuova chat"></span>
+        <span> <input  v-model="ricercaContatto" @keyup="trovaContatto" class="barra-ricerca-sx" type="text" placeholder="Cerca o inizia una nuova chat"></span>
 
        </div>
 
@@ -64,13 +64,9 @@
 
     <section class="barra-sinistra">
 
-        <div v-for="(contact, index) in contacts" class="avatar-nome" @click="setContactActive(index)">
-
-            
-            
-         
-            
-             <span class="name-sx"></span>  
+        <div  v-for="(contact, index) in contacts" v-if="contact.visible != false" class="avatar-nome" @click="setContactActive(index)">
+          
+              <span class="name-sx"></span>  
               <img :src="'img/avatar' + contact.avatar + '.jpg'"  :alt="contact.name">
              <span class="name-sx ">{{contact.name}}</span>
          
