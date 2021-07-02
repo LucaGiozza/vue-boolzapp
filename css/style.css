@@ -216,6 +216,7 @@ body{
   height: 400px;
   background-color: rgb(172, 215, 241);
   position: relative;
+  overflow-y: auto;
   }
 
   .messaggi.sent{
